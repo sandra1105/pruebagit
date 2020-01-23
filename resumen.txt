@@ -9,3 +9,7 @@ hay un fichero llamado .gitignore -> si pones el nombre del fichero que no quier
 git commit -m ->hace la instantania con mensaje.
 git commit -am ""-> es un git add + git commit.
 git commit --ammend -m ""->hace una pequeña modificacion al ultimo commit.
+git config --global user.name "sandra1105"
+git config --global user.email "sandrasrs00@gmail.com"
+git config --list
+git log -> me dice los commit que tenemos
