@@ -1,0 +1,11 @@
+git init -> inicializa el git.(Solo si trabajo solo.Y mi git no va a ser remoto)
+git clone http://.../ -> para inizializarlo , enlazando git con git hub que es el repositorio remoto.Y clona de ese sitio.
+git status -> te dice como esta tu repositorio local.
+git add-> añade el las paginas para que las vigile y las guarde.
+git add --all-> lo hace de toda la carpeta principal y las carpetas hijas.
+git rm --cached noimportante.txt -> lo saca de la lista del add.
+git reset noimportante.txt ->lo mismo que en lo anterior.
+hay un fichero llamado .gitignore -> si pones el nombre del fichero que no quieres que se ponga en ninguna instantania.igual con las carpetas.
+git commit -m ->hace la instantania con mensaje.
+git commit -am ""-> es un git add + git commit.
+git commit --ammend -m ""->hace una pequeña modificacion al ultimo commit.
