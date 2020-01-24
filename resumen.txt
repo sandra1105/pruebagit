@@ -16,7 +16,7 @@ git log -> me dice los commit que tenemos
 git remote add origin https://github.com/sandra1105/pruebagit.git
 git push origin master
 git pull -> clona de un repositirio remoto del cual ya tienes una copia.
-
+git checkout -b "nombrerama" -> te hace un branch y te mueve a la vez
 git branch "nombre" ->  creas una nueva rama
 git checkout "nombre" -> te cambias de rama
 git merge "nombre"-> te mezcla con la rama que estas con la que pones.
